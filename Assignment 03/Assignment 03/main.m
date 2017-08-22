@@ -22,16 +22,13 @@ int main(int argc, const char * argv[]) {
             AdditionQuestion *aq = [[AdditionQuestion alloc] init];
             NSLog(@"%@", aq.question);
             
-            //NSString* input = InputHandler.getString;
             NSString* input = [InputHandler getString];
             
-            //check quit or not
             if ([input isEqualToString:@"quit"]){
                 gameOn = NO;
                 continue;
             }
             
-            //check the answer
             if(aq.answer == [input intValue]){
                 sk.countRight++;
                 NSLog(@"Right!");

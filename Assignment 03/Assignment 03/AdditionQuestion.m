@@ -10,11 +10,10 @@
 
 @implementation AdditionQuestion
 
-//override init
 - (instancetype)init {
     if (self = [super init]) {
-        NSInteger num1 = arc4random_uniform(100) + 1; // generate random number from 1 to 100
-        NSInteger num2 = arc4random_uniform(100) + 1; // generate random number from 1 to 100
+        NSInteger num1 = arc4random_uniform(100) + 1; // generate random number between 1 and 100
+        NSInteger num2 = arc4random_uniform(100) + 1; // generate random number between 1 and 100
         _question = [NSString stringWithFormat: @"%ld + %ld = ?", num1, num2];
         _answer = num1 + num2;
     }

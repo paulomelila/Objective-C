@@ -1,5 +1,5 @@
 //
-//  SpecialDiscount.m
+//  HolidayDiscount.m
 //  Assignment 09
 //
 //  Created by Paulo Melila on 2017-08-28.

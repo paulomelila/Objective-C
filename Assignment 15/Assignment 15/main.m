@@ -7,7 +7,7 @@
 //
 
 /*
- SNAKES & LADDERS
+ SNAKES & LADDERS (MULTIPLAYER EDITION)
  
  To create a multiplayer version of the game called Snakes & Ladders
  
